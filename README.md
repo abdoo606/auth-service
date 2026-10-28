@@ -20,3 +20,7 @@ pytest projects/13-auth-service -q
 - HS256 JWT with `alg: none` rejection, issuer check and `exp` enforcement
 - Refresh-token rotation with reuse detection: replay revokes the whole family
 - `hmac.compare_digest` everywhere a secret is compared
+
+## Repository
+- GitHub: https://github.com/{owner}/auth-service
+- Python 3.11+ · tests: `pytest` · runtime dependencies: none (standard library only)
